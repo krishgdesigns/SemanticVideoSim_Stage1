@@ -1,0 +1,43 @@
+# OMNeT++ build output
+/out/
+/src/*.o
+/src/*.lo
+/src/*.la
+/src/*.a
+/src/*.so
+/src/*.dll
+/src/*.dylib
+/src/*.d
+/src/FrameMsg_m.cc
+/src/FrameMsg_m.h
+
+# Simulation results
+*.sca
+*.vec
+*.vci
+*.gdf
+*.elog
+*.csv
+*.tlog
+*.vci2
+
+# OMNeT++ IDE files
+.oppbuildspec
+.oppconfig
+.oppworkbench
+.nedfolders
+.nedexclusions
+.cproject
+.project
+.settings/
+
+# Backup / temp files
+*~
+*.bak
+*.swp
+*.tmp
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db

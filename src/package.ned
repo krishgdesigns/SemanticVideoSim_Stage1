@@ -1,0 +1,3 @@
+package selfmade;
+
+@license(LGPL);
