@@ -83,14 +83,14 @@ selfmade/
 ```bash - cd simulations
            ./run
 
-### Outputs:Simulation results in .vec and .sca format.Generated output.gdf files for each UE in the gdf/ directory.
+** Outputs:Simulation results in .vec and .sca format.Generated output.gdf files for each UE in the gdf/ directory.
 
-###📊 Stage 1 Results & Observations
+**📊 Stage 1 Results & Observations
 Traffic Pattern: Frames are sent at a fixed interval (CBR-like), determined in FrameSender.cc.
 Reliability: ACK timeout ensures retransmissions for lost frames.
 Scalability: Tested with 1 Source UE, 1 gNodeB, and 10 Receiver UEs.
 
-###🗺 Project Roadmap
+***🗺 Project Roadmap
 ✅Stage 1 – Custom OMNeT++ Wireless Simulation (Completed)
 Fully custom channel and node models.Frame selection from GDF and broadcasting logic.ACK and retransmission handling.
 
